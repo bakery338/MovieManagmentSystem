@@ -6,4 +6,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MovieSystem.Domain\MovieSystem.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Contract\Interfac\" />
+    <Folder Include="Contract\Servieces\" />
+    <Folder Include="Excepation\" />
+    <Folder Include="AutoMapper\" />
+    <Folder Include="DTO\" />
+    <Folder Include="Repositery\Interface\" />
+    <Folder Include="Valdation\" />
+  </ItemGroup>
+
 </Project>
