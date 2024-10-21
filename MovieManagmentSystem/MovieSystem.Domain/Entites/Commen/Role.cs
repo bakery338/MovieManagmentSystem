@@ -7,17 +7,10 @@ using System.Threading.Tasks;
 
 namespace MovieSystem.Domain.Entites.Commen
 {
-    public class User
+    public class Role
     {
-        [Key]
         public int Id { get; set; }
         [MaxLength(100)]
         public required string Name { get; set; }
-        public required string Email { get; set; }
-        public required string Password { get; set; }
-        public short? Age { get; set; }
-        [MaxLength(20)]
-        public string? Type { get; set; }
-
     }
 }
