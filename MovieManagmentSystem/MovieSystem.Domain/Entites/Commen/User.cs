@@ -19,5 +19,9 @@ namespace MovieSystem.Domain.Entites.Commen
         [MaxLength(20)]
         public string? Type { get; set; }
 
+        public ICollection<Review>? reviews { get; set; }
+        public ICollection<Like>? likes { get; set; }
+       
+
     }
 }

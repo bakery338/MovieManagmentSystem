@@ -11,5 +11,7 @@ namespace MovieSystem.Domain.Entites.Commen
         public int Id { get; set; }
         public string? Name { get; set; }
         public int Parentid { get; set; }
+
+        public ICollection<Movie>? Movies { get; set; }
     }
 }

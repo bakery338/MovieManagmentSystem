@@ -18,5 +18,8 @@ namespace MovieSystem.Domain.Entites.Commen
         //navigeation properties
         public int Catogeryid {  get; set; }
         public Catogery? Catogery { get; set; }
+
+        public ICollection<Review>? reviews { get; set;}
+
     }
 }

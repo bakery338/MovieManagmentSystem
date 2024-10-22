@@ -21,5 +21,7 @@ namespace MovieSystem.Domain.Entites.Commen
         public int Movieid { get; set; }
         public Movie? Movie { get; set; }
 
+        public ICollection<Like>? Like { get; set; }
+
     }
 }
